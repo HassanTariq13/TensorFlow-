@@ -1,0 +1,42 @@
+.button1{
+    margin-left: 20px;
+    border-radius: 7px;
+    width: 90px;
+    height: 42px;
+    color: blue;
+    background-color: rgb(201, 213, 238);
+    border: none;
+}
+.button1:hover{
+    background-color: rgb(170, 192, 240);
+    color: rgb(7, 55, 160);
+}
+.Maindiv1{
+    display: flex;
+    flex: wrap;
+}
+.Container{
+   display: flex;
+   flex-wrap: wrap;
+   text-align: start;
+   margin-top: 200px;
+   margin-left: 100px;
+   margin-right: 90px;
+   width: 40%;
+}
+.div2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.img1{
+    margin-top: 85px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.para2{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    margin-left: 750px;
+    margin-top: -300px;
+}

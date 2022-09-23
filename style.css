@@ -12,9 +12,8 @@
     color: rgb(7, 55, 160);
 }
 .Maindiv1{
-    display: flex;
-    flex: wrap;
-}
+
+}    
 .Container{
    display: flex;
    flex-wrap: wrap;
@@ -22,16 +21,19 @@
    margin-top: 200px;
    margin-left: 100px;
    margin-right: 90px;
-   width: 40%;
+   width: 50%;
+  
 }
 .div2{
-    display: flex;
-    flex-wrap: wrap;
+   display: flex;
+   flex-wrap: wrap;
 }
-.img1{
-    margin-top: 85px;
+.img2{
+    margin: 85px;
     display: flex;
     flex-wrap: wrap;
+    min-width: 270px;
+    max-height: 500px ;
 }
 .para2{
     display: flex;
@@ -39,4 +41,21 @@
     margin: 20px;
     margin-left: 750px;
     margin-top: -300px;
+}
+.d-flex1{
+    margin: 10px;
+}
+.para1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.hr1{
+    width: 1263px;
+    height: 100px;
+}
+.div3{
+    text-align: center;
+}
+.heading2{
+    
 }

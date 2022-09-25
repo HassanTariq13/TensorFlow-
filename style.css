@@ -4,23 +4,23 @@
     width: 90px;
     height: 42px;
     color: blue;
-    background-color: rgb(201, 213, 238);
+    background-color: #f8f9fa;
     border: none;
 }
 .button1:hover{
-    background-color: rgb(170, 192, 240);
-    color: rgb(7, 55, 160);
+    background-color: rgb(231, 235, 245);
+    color: rgb(10, 68, 202);
 }
 .Maindiv1{
-
+    display: flex;
+    flex-wrap: wrap;
 }    
 .Container{
    display: flex;
    flex-wrap: wrap;
    text-align: start;
    margin-top: 200px;
-   margin-left: 100px;
-   margin-right: 90px;
+   padding-left: 100px;
    width: 50%;
   
 }
@@ -29,11 +29,12 @@
    flex-wrap: wrap;
 }
 .img2{
-    margin: 85px;
     display: flex;
     flex-wrap: wrap;
-    min-width: 270px;
-    max-height: 500px ;
+    width: 270px;
+    height: 400px;
+    justify-content: center;
+    margin: auto;
 }
 .para2{
     display: flex;
@@ -50,12 +51,42 @@
     flex-wrap: wrap;
 }
 .hr1{
-    width: 1263px;
-    height: 100px;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
 }
 .div3{
     text-align: center;
+    margin: 15px;
 }
-.heading2{
-    
+.CardHolder{
+    background-color: rgb(247, 247, 247);
+    border-radius: 22px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 12%;
+    justify-content: center;
+    margin: auto;
+    font-size: 16px;
+    padding-left: 7px;
+
+
+}
+.cardimg{
+    width: 102%;
+    border-radius: 12px;
+}
+.div4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.imges{
+    width: 50%;
+   
+}
+.CardHolder1{
+    width: 155px;
+
 }
